@@ -1,3 +1,7 @@
+:root{
+    background-image: url(./1320139.jpg);
+    opacity: 0.99;
+}
 h1{
 display: block;
 border-style: groove;
@@ -6,11 +10,12 @@ border-radius: 2px;
 border-color: black;
 width:5cm;
 font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: medium;
 }
 li{
-    display: inline-block;
-    width:5%;
-    height:5vh;
+       display: inline-block;
+    width:100px;
+    height:50px;
     background-color: rgb(46, 127, 165);
     border-radius: 5px;
     border-width: 0px 2px 2px 0px;
@@ -31,19 +36,22 @@ li:active{
     box-shadow: 2px 2px 2px 2px grey inset;
 }
 .textoimagen{
+    align-self: left;
     display: inline-block;
     background-color: wheat;
-    width: 25%;
-    height: 5%;
+    width: 125px;
+    height: 125px;
     position:absolute;
     top: 40%;
-    left: 60%;
+    left: 90%;
+    
     transform: translate(-50%,-50%);
     font-size: 18px;
     color: red;
     
 }
 article{
+    background-color: azure;
     font-size: 80%;
     display: flex;
     justify-content: center;
@@ -56,6 +64,7 @@ article{
     border-style:dotted;
     border-color: darkcyan;
     justify-items: center;
+    color: black;
 }
 .responsive{
 width: 50%;
